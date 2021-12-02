@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&family=Syncopate&family=Zen+Kurenaido&display=swap');
+
+
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+#main {
+  background-color: whitesmoke;
+
+  max-width: 1280px;
+
+  min-height: 100%;
+
+  margin: 0 auto;
+
+  position: relative;
+}
+
+footer {
+  background: rgb(196, 27, 27);
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+
+  padding-top: 50px;
+
+  height: 50px;
+}
+
+#header {
+  background-color: blueviolet;
+}
+
+.conteneur {
+  display: flex;
+}
+
+.flexa {
+  flex: 33%;
+}
+
+.flexb {
+  flex: 33%;
+}
+
+.flexc {
+  flex: 33%;
+}
+
+#titre
+
+{
+  padding: 1%;
+}
+
+.titre
+
+{
+  text-align: center;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.texte
+
+{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Livvic', sans-serif;
+  line-height: 1.3rem;
+}
